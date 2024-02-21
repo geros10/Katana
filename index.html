@@ -11,22 +11,28 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="logo"><a href="#">Katana's Web Creative</a></div>
+            <div class="logo">
+                <a href="#">
+                    Katana's Web Creative
+                </a>
+                <i class="fas fa-store"></i>
+            </div>
             <div class="search-container" id="searchContainer">
                 <input type="text" id="search-bar" placeholder="Search...">
                 <button id="search-button"><i class="fas fa-search"></i></button>
             </div>
-            <ul class="links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="links" id="links">
+                <li id="home"><a href="#">Home</a></li>
+                <li id="about"><a href="#">About</a></li>
+                <li id="services"><a href="#">Services</a></li>
+                <li id="contact"><a href="#">Contact</a></li>
             </ul>
-            <div class="toggle_btn">
+            <div class="toggle_btn" id="toggle-btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
     </header>
+    
     <script src="script.js"></script>
 </body>
 </html>
