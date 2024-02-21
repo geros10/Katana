@@ -8,7 +8,7 @@ searchBar.addEventListener("focus", function () {
 });
 
 searchBar.addEventListener("blur", function () {
-    if (this.value === "") {
+    if (this.value === "" && !linksContainer.classList.contains('show')) {
         searchContainer.style.width = "200px";
     }
 });
@@ -16,3 +16,5 @@ searchBar.addEventListener("blur", function () {
 toggleBtn.addEventListener('click', function() {
     linksContainer.classList.toggle('show');
 });
+
+
